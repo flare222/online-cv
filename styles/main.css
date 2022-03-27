@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.95em;
+}
+
+h1,
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  color: #2374ab;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  padding: 0 0 10px 0;
+  /* text-align: center; */
+}
+
+h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+  /* color: #231651; */
+  padding-left: 10px;
+}
+
+p,
+a {
+  /* font-family: "Noto Serif", serif; */
+
+  font-size: 1.2em;
+}
+
+p {
+  line-height: 30px;
+}
+
+hr {
+  border: 2px solid #ff8484;
+  margin: 30px;
+}
+
+.page-wrap {
+  /* background-color: red; */
+  display: flex;
+}
+
+.left {
+  background-color: #d6fff6;
+  width: 25%;
+  text-align: center;
+  padding: 35px 25px;
+}
+
+.img-profile-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img-profile {
+  border: white 3px solid;
+  border-radius: 50%;
+  max-width: 150px;
+  filter: grayscale(100%);
+}
+
+.contact-div {
+  display: flex;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-left: 50px;
+}
+
+i {
+  padding: 0 10px 0 0;
+  font-size: 1.3em;
+  color: #2374ab;
+}
+
+a {
+  text-decoration: none;
+  color: #231651;
+}
+
+.skills-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 200px;
+  min-width: 200px;
+  text-align: left;
+  justify-content: center;
+}
+
+.right {
+  /* background-color: purple; */
+  width: 75%;
+  overflow: scroll;
+  padding: 35px 25px;
+}
+
+.img-profile-div-mob {
+  display: none;
+}
+
+.contact-div-mob {
+  display: none;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title p {
+  font-size: 1.8em;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.print-btn {
+  background-color: #ff8484;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Dosis", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.print-btn:hover,
+.print-btn:focus {
+  background-color: #fbabab;
+}
+
+.profile {
+  text-align: center;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.company img {
+  width: 40px;
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-weight: 700;
+}
+
+.dates {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.prior {
+  text-align: center;
+}
+
+.blue-mob {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .page-wrap {
+    flex-direction: column;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+  .img-profile-div-mob {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .img-profile-mob {
+    /* border: white 3px solid; */
+    border-radius: 50%;
+    max-width: 150px;
+    filter: grayscale(100%);
+  }
+  .img-border {
+    border: #ff8484 solid 4px;
+    border-radius: 50%;
+    max-width: 157px;
+    max-height: 158px;
+  }
+  .contact-div-mob {
+    display: flex;
+    background-color: #d6fff6;
+    padding: 20px 0;
+    justify-content: space-evenly;
+  }
+  .blue-mob {
+    display: block;
+    background-color: #d6fff6;
+    padding: 0px 25px 35px;
+  }
+  .skills-wrap {
+    justify-content: left;
+  }
+  .skills-div {
+    min-width: 300px;
+  }
+}
+
+@media print {
+  .btn-div {
+    display: none;
+  }
+}
