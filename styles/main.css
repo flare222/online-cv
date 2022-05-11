@@ -43,7 +43,6 @@ h3 {
 
 p,
 a {
-  /* font-family: "Noto Serif", serif; */
   font-size: 1.2em;
 }
 
@@ -143,7 +142,8 @@ a {
 }
 
 .print-btn {
-  background-color: #db504a;
+  /* background-color: #db504a; */
+  background-color: #084c61;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -151,8 +151,9 @@ a {
   cursor: pointer;
   display: inline-block;
   font-family: "Dosis", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
   height: 40px;
   line-height: 20px;
   list-style: none;
@@ -172,7 +173,7 @@ a {
 
 .print-btn:hover,
 .print-btn:focus {
-  background-color: #fbabab;
+  background-color: #0b93bd;
 }
 
 .profile {
@@ -230,7 +231,6 @@ li {
     margin-bottom: 20px;
   }
   .img-profile-mob {
-    /* border: white 3px solid; */
     border-radius: 50%;
     max-width: 150px;
     filter: grayscale(100%);
@@ -261,6 +261,9 @@ li {
 }
 
 @media print {
+  body {
+    font-size: 12px;
+  }
   .btn-div {
     display: none;
   }
