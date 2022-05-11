@@ -1,3 +1,11 @@
+/* Colors */
+/* set 1 */
+/* H2 #2374ab */
+/* HR  #ff8484*/
+/* bg  #d6fff6*/
+/* link #231651 */
+/* btn hover #fbabab */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +23,7 @@ h1,
 h2 {
   font-family: "Dosis", sans-serif;
   font-weight: 300;
-  color: #2374ab;
+  color: #084c61;
 }
 
 h1 {
@@ -24,21 +32,18 @@ h1 {
 
 h2 {
   padding: 0 0 10px 0;
-  /* text-align: center; */
 }
 
 h3 {
   font-family: "Dosis", sans-serif;
   font-weight: 200;
   font-size: 1.3em;
-  /* color: #231651; */
   padding-left: 10px;
 }
 
 p,
 a {
   /* font-family: "Noto Serif", serif; */
-
   font-size: 1.2em;
 }
 
@@ -47,17 +52,16 @@ p {
 }
 
 hr {
-  border: 2px solid #ff8484;
+  border: 2px solid #db504a;
   margin: 30px;
 }
 
 .page-wrap {
-  /* background-color: red; */
   display: flex;
 }
 
 .left {
-  background-color: #d6fff6;
+  background-color: #d4d8da;
   width: 25%;
   text-align: center;
   padding: 35px 25px;
@@ -86,7 +90,7 @@ hr {
 i {
   padding: 0 10px 0 0;
   font-size: 1.3em;
-  color: #2374ab;
+  color: #084c61;
 }
 
 a {
@@ -110,7 +114,6 @@ a {
 }
 
 .right {
-  /* background-color: purple; */
   width: 75%;
   overflow: scroll;
   padding: 35px 25px;
@@ -140,7 +143,7 @@ a {
 }
 
 .print-btn {
-  background-color: #ff8484;
+  background-color: #db504a;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -233,20 +236,20 @@ li {
     filter: grayscale(100%);
   }
   .img-border {
-    border: #ff8484 solid 4px;
+    border: #db504a solid 4px;
     border-radius: 50%;
     max-width: 157px;
     max-height: 158px;
   }
   .contact-div-mob {
     display: flex;
-    background-color: #d6fff6;
+    background-color: #d4d8da;
     padding: 20px 0;
     justify-content: space-evenly;
   }
   .blue-mob {
     display: block;
-    background-color: #d6fff6;
+    background-color: #d4d8da;
     padding: 0px 25px 35px;
   }
   .skills-wrap {
