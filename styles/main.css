@@ -55,6 +55,11 @@ hr {
   margin: 30px;
 }
 
+.thin-hr {
+  border: 1px solid #cec8c7;
+  margin: 5px 50px;
+}
+
 .page-wrap {
   display: flex;
 }
@@ -110,6 +115,11 @@ a {
   min-width: 200px;
   text-align: left;
   justify-content: center;
+}
+
+.edu-wrap {
+  display: flex;
+  flex-direction: column;
 }
 
 .right {
